@@ -1,0 +1,108 @@
+vaccine_schedule:
+  - age:
+      english: "Birth"
+      hindi: "जन्म"
+      marathi: "जन्म"
+    days_after_dob: 0
+    name:
+      english: "BCG, OPV-0, Hepatitis B birth dose"
+      hindi: "बीसीजी, ओपीवी-0, हेपेटाइटिस बी जन्म खुराक"
+      marathi: "बीसीजी, ओपीवी-0, हिपॅटायटिस बी जन्म डोस"
+  - age:
+      english: "1.5 months or 6 weeks"
+      hindi: "1.5 महीने"
+      marathi: "1.5 महिने"
+    days_after_dob: 42
+    name:
+      english: "OPV-1, IPV-1, Penta-1, PCV-1 and Rota-1"
+      hindi: "ओपीवी-1, आईपीवी-1, पेंटा-1, पीसीवी-1 और रोटा-1"
+      marathi: "ओपीवी-1, आईपीव्ही-1, पेंटा-1, पीसीव्ही-1 आणि रोटा-1"
+  - age:
+      english: "2.5 months or 10 weeks"
+      hindi: "2.5 महीने"
+      marathi: "2.5 महिने"
+    days_after_dob: 70
+    name:
+      english: "OPV-2, Penta-2 and Rota-2"
+      hindi: "ओपीवी-2, पेंटा-2 और रोटा-2"
+      marathi: "ओपीवी-2, पेंटा-2 आणि रोटा-2"
+  - age:
+      english: "3.5 months or 14 weeks"
+      hindi: "3.5 महीने"
+      marathi: "3.5 महिने"
+    days_after_dob: 98
+    name:
+      english: "OPV-3, IPV-2, Penta-3, PCV-2 and Rota-3"
+      hindi: "ओपीवी-3, आईपीवी-2, पेंटा-3, पीसीवी-2 और रोटा-3"
+      marathi: "ओपीवी-3, आईपीव्ही-2, पेंटा-3, पीसीव्ही-2 आणि रोटा-3"
+  - age:
+      english: "9-12 months"
+      hindi: "9-12 महीने"
+      marathi: "9-12 महिने"
+    days_after_dob: 273
+    name:
+      english: "MR-1, JE-1 (if in endemic districts), Vitamin A-1 and PCV Booster"
+      hindi: "खसरा-रुबैला-1, जेई-1 (यदि स्थानिक जिलों में हो), विटामिन ए-1 और पीसीवी बूस्टर"
+      marathi: "एमआर-1, जेई-1 (स्थानिक जिल्ह्यात असल्यास), व्हिटॅमिन ए-1 आणि पीसीव्ही बूस्टर"
+  - age:
+      english: "16-24 months"
+      hindi: "16-24 महीने"
+      marathi: "16-24 महिने"
+    days_after_dob: 480
+    name:
+      english: "MR-2, DPT booster-1, OPV booster, JE-2 (if in endemic districts), and Vitamin A-2"
+      hindi: "खसरा-रुबैला-2, डीपीटी बूस्टर-1, ओपीवी बूस्टर, जेई-2 (यदि स्थानिक जिलों में हो), और विटामिन ए-2"
+      marathi: "एमआर-2, डीपीटी बूस्टर-1, ओपीव्ही बूस्टर, जेई-2 (स्थानिक जिल्ह्यात असल्यास), आणि व्हिटॅमिन ए-2"
+  - age:
+      english: "5 years"
+      hindi: "5 वर्ष"
+      marathi: "5 वर्षे"
+    days_after_dob: 1825
+    name:
+      english: "DPT booster-2"
+      hindi: "डीपीटी बूस्टर-2"
+      marathi: "डीपीटी बूस्टर-2"
+  - age:
+      english: "10 years"
+      hindi: "10 वर्ष"
+      marathi: "10 वर्षे"
+    days_after_dob: 3650
+    name:
+      english: "TT"
+      hindi: "टी. टी."
+      marathi: "टी. टी."
+  - age:
+      english: "15 years"
+      hindi: "15 वर्ष"
+      marathi: "15 वर्षे"
+    days_after_dob: 5475
+    name:
+      english: "TT"
+      hindi: "टी. टी."
+      marathi: "टी. टी."
+
+labels:
+  child_name:
+    english: "Child's Name"
+    hindi: "बच्चे का नाम"
+    marathi: "बाळाचे नाव"
+  dob:
+    english: "Date of Birth"
+    hindi: "जन्म की तारीख"
+    marathi: "जन्मतारीख"
+  age:
+    english: "Age"
+    hindi: "आयु"
+    marathi: "बाळाचे वय"
+  vaccine:
+    english: "Vaccine"
+    hindi: "टीका"
+    marathi: "लसीचे नाव"
+  due_date:
+    english: "Due Date"
+    hindi: "देय तारीख"
+    marathi: "लसीकरणाची तारीख"
+  child_vaccination_schedule:
+    english: "Child Vaccination Schedule"
+    hindi: "बाल टीकाकरण अनुसूची"
+    marathi: "बाल टीकाकरण अनुसूची"

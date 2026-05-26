@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Generated output — keep the directories, ignore their contents
+vaccination-calendar/*
+!vaccination-calendar/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Secrets / local config overrides
+.env
+.env.*
+*.local.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files created during image generation
+temp.html

@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 5px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            border: 2px solid #4a90d9;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #4a90d9;
+            margin-bottom: 10px;
+        }
+        .child-info {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            table-layout: fixed;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            word-wrap: break-word;
+        }
+        th {
+            background-color: #4a90d9;
+            color: white;
+        }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        tr:nth-child(odd)  { background-color: #ffffff; }
+        .age-column      { width: 15%; }
+        .due-date-column { width: 15%; }
+        .footer {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ labels['child_vaccination_schedule'] }}</h1>
+        <div class="child-info">
+            <p>
+                <strong>{{ labels['child_name'] }}:</strong> {{ child_name }}
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <strong>{{ labels['dob'] }}:</strong> {{ dob }}
+            </p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th class="age-column">{{ labels['age'] }}</th>
+                    <th>{{ labels['vaccine'] }}</th>
+                    <th class="due-date-column">{{ labels['due_date'] }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for age, vaccine, due_date in schedule %}
+                <tr>
+                    <td class="age-column">{{ age }}</td>
+                    <td>{{ vaccine }}</td>
+                    <td class="due-date-column">{{ due_date }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="footer">
+            <p>{{ footer_text }}</p>
+        </div>
+    </div>
+</body>
+</html>
