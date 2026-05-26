@@ -29,6 +29,9 @@ logs/*
 .env.*
 *.local.ini
 
+# Kiro IDE
+.kiro/
+
 # IDE
 .vscode/
 .idea/
